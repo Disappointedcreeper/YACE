@@ -1,0 +1,6 @@
+-Cutscene handler node
+-Cutscene editor dock
+-Popup menus
+-Dialogue stuff
+-Branching paths
+-Signal support?
