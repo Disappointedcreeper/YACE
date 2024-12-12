@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="StopSignPause.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="32"
+     inkscape:cx="6.203125"
+     inkscape:cy="-0.34375"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     id="path1396"
+     style="fill:#c38ef1;fill-opacity:1;stroke-width:0.392;stop-color:#000000"
+     d="M 10.738281 1.3847656 L 5.2578125 1.3867188 L 1.3847656 5.2617188 L 1.3867188 10.742188 L 5.2617188 14.615234 L 10.742188 14.613281 L 14.615234 10.738281 L 14.613281 5.2578125 L 10.738281 1.3847656 z M 5.6328125 4 C 6.3253125 4 6.8828125 4.4902094 6.8828125 5.0996094 L 6.8828125 10.900391 C 6.8828125 11.509791 6.3253125 12 5.6328125 12 C 4.9403125 12 4.3828125 11.509791 4.3828125 10.900391 L 4.3828125 5.0996094 C 4.3828125 4.4902094 4.9403125 4 5.6328125 4 z M 10.367188 4 C 11.059688 4 11.617188 4.4902094 11.617188 5.0996094 L 11.617188 10.900391 C 11.617188 11.509791 11.059687 12 10.367188 12 C 9.6746873 12 9.1171875 11.509791 9.1171875 10.900391 L 9.1171875 5.0996094 C 9.1171875 4.4902093 9.6746873 4 10.367188 4 z " />
+</svg>

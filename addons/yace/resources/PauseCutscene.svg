@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="PauseCutscene.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="11.313708"
+     inkscape:cx="-17.545087"
+     inkscape:cy="6.1871843"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     id="path1050"
+     style="fill:#000000;stroke-width:0.392;stop-color:#000000;fill-opacity:1"
+     d="M 8 1 A 7 7 0 0 0 1 8 A 7 7 0 0 0 8 15 A 7 7 0 0 0 15 8 A 7 7 0 0 0 8 1 z M 5.6328125 4 C 6.3253125 4 6.8828125 4.4902093 6.8828125 5.0996094 L 6.8828125 10.900391 C 6.8828125 11.509791 6.3253125 12 5.6328125 12 C 4.9403125 12 4.3828125 11.509791 4.3828125 10.900391 L 4.3828125 5.0996094 C 4.3828125 4.4902094 4.9403125 3.9999999 5.6328125 4 z M 10.367188 4 C 11.059688 4 11.617188 4.4902095 11.617188 5.0996094 L 11.617188 10.900391 C 11.617188 11.509791 11.059687 12 10.367188 12 C 9.6746875 12 9.1171875 11.509791 9.1171875 10.900391 L 9.1171875 5.0996094 C 9.1171875 4.4902093 9.6746875 4 10.367188 4 z " />
+</svg>

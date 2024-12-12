@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=3 format=3 uid="uid://d1fut8mb1lgye"]
+
+[ext_resource type="Script" path="res://addons/yace/customResources/dialogue_resource.gd" id="1_i5716"]
+[ext_resource type="AudioStream" uid="uid://c6n0i8o2ycssy" path="res://addons/yace/resources/Talksound.wav" id="2_aaeis"]
+
+[resource]
+script = ExtResource("1_i5716")
+dialogue = "this is a string created solely to test the dialogue system"
+overrideDefaultTextSpeed = false
+textSpeed = 0.0
+allowSkipping = true
+useTalkSound = true
+talkSound = ExtResource("2_aaeis")
+useTalkSprite = false
+useAnimatedTalkSprite = false
+overrideTalkSpriteDimentions = false
+talkSpriteDimentions = Vector2(0, 0)
+talkSpriteAnimation = ""
+useNewAnimationWhenFinished = false
+finishedTalkSpriteAnimation = ""
+useCustomFont = false

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="StopSignSquare.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="32"
+     inkscape:cx="8.546875"
+     inkscape:cy="6.71875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     sodipodi:type="star"
+     style="fill:#c38ef1;fill-opacity:1;stroke-width:0.392;stop-color:#000000"
+     id="path1396"
+     inkscape:flatsided="true"
+     sodipodi:sides="8"
+     sodipodi:cx="8"
+     sodipodi:cy="8"
+     sodipodi:r1="7.1597571"
+     sodipodi:r2="6.6147528"
+     sodipodi:arg1="0.39243074"
+     sodipodi:arg2="0.78512982"
+     inkscape:rounded="0"
+     inkscape:randomized="0"
+     d="m 14.615488,10.738145 -3.873793,3.875873 -5.4798403,0.0015 -3.8758723,-3.873793 -0.00147,-5.4798403 3.8737927,-3.8758723 5.4798404,-0.00147 3.875873,3.8737927 z" />
+</svg>

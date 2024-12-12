@@ -1,0 +1,8 @@
+[gd_resource type="Resource" script_class="Cutscene" load_steps=3 format=3 uid="uid://cgue53pktsgaw"]
+
+[ext_resource type="Script" path="res://addons/yace/customResources/cutscene_action.gd" id="1_uu0av"]
+[ext_resource type="Script" path="res://addons/yace/customResources/cutscene.gd" id="2_1ahao"]
+
+[resource]
+script = ExtResource("2_1ahao")
+Actions = Array[ExtResource("1_uu0av")]([])
