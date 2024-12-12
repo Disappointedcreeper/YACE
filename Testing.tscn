@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://ciwdbf81ysxdt"]
-
-[ext_resource type="Script" path="res://addons/yace/cutscene_handler/cutscene_handler.gd" id="1_du6ya"]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="Cutscene Handler" type="Node" parent="."]
-script = ExtResource("1_du6ya")

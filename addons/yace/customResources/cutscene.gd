@@ -2,4 +2,4 @@
 extends CutsceneResource
 class_name Cutscene
 
-@export var Actions:CutsceneAction = []
+@export var Actions:Array[CutsceneAction] = []

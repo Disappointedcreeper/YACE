@@ -1,4 +1,23 @@
-[gd_scene format=3 uid="uid://d2vgpyv03qj12"]
+[gd_scene load_steps=6 format=3 uid="uid://d2vgpyv03qj12"]
+
+[ext_resource type="Texture2D" uid="uid://cvq7ejg511v6v" path="res://addons/yace/resources/NewCutscene.svg" id="1_2d4jd"]
+[ext_resource type="Script" path="res://addons/yace/cutscene_editor/cutscene_editor_main.gd" id="1_14jcx"]
+[ext_resource type="Texture2D" uid="uid://ca7yxltd4n2el" path="res://addons/yace/resources/OpenCutsceneColored.svg" id="2_iyosf"]
+[ext_resource type="Script" path="res://addons/yace/cutscene_editor/file_dialogue.gd" id="4_v8in4"]
+
+[sub_resource type="GDScript" id="GDScript_ppnr7"]
+script/source = "extends FileDialog
+
+@export var cutscene_editor_main:Node = get_node(\"VBoxContainer/HBoxContainer/RichTextLabel\")
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	
+"
 
 [node name="CutsceneEditor" type="Control"]
 layout_mode = 3
@@ -7,3 +26,58 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_direction = 2
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "No cutscene loaded"
+fit_content = true
+autowrap_mode = 0
+script = ExtResource("1_14jcx")
+
+[node name="New Scene" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+tooltip_text = "New scene"
+icon = ExtResource("1_2d4jd")
+
+[node name="Open Scene" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+tooltip_text = "Open scene"
+icon = ExtResource("2_iyosf")
+
+[node name="OpenCutscene" type="FileDialog" parent="." node_paths=PackedStringArray("cutscene_editor_main")]
+title = "Open a File"
+position = Vector2i(0, 36)
+size = Vector2i(303, 250)
+min_size = Vector2i(200, 250)
+ok_button_text = "Open"
+file_mode = 0
+filters = PackedStringArray("*.tres")
+script = ExtResource("4_v8in4")
+cutscene_editor_main = NodePath("../VBoxContainer/HBoxContainer/RichTextLabel")
+
+[node name="NewCutscene" type="FileDialog" parent="." node_paths=PackedStringArray("cutscene_editor_main")]
+auto_translate_mode = 1
+title = "New Cutscene"
+position = Vector2i(0, 36)
+size = Vector2i(303, 250)
+min_size = Vector2i(200, 250)
+ok_button_text = "Save"
+filters = PackedStringArray("*.tres")
+script = SubResource("GDScript_ppnr7")
+cutscene_editor_main = NodePath("../VBoxContainer/HBoxContainer/RichTextLabel")
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/New Scene" to="NewCutscene" method="show"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Open Scene" to="OpenCutscene" method="show"]
+[connection signal="about_to_popup" from="OpenCutscene" to="OpenCutscene" method="_on_about_to_popup"]
+[connection signal="file_selected" from="OpenCutscene" to="VBoxContainer/HBoxContainer/RichTextLabel" method="_open_cutscene"]
+[connection signal="about_to_popup" from="NewCutscene" to="NewCutscene" method="_on_about_to_popup"]
+[connection signal="file_selected" from="NewCutscene" to="VBoxContainer/HBoxContainer/RichTextLabel" method="_new_cutscene"]
